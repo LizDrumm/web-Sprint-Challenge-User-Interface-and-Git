@@ -72,6 +72,11 @@ p {
     justify-content:center;
 }
 
+.entire{
+    margin: 0 auto;
+    width: 80%;
+}
+
 header{
     display:flex;
     width: 100%;
@@ -140,12 +145,12 @@ nav a{
 }
 
 .box1,.box2, .box3 ,.box4 ,.box5 ,.box6 ,.box7 ,.box8 ,.box9, .box10{ 
-    width: 230px;
-    height: 230px;
+    width: 190px;
+    height: 190px;
     color: white;
     margin: 4% auto;
     text-align:center;
-     line-height: 200px; 
+    line-height: 200px; 
 }
 
 .box1{
