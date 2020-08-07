@@ -101,18 +101,76 @@ nav a{
        width: 100%;
        object-fit: cover;
        object-position: center;
-
+       
      }
 
 
    .abouttext{
        line-height:14px;
+       margin-bottom: 20px;
+       border-bottom: 3px dashed black;
+       padding-bottom: 2%;
+       
    }  
 
 
+   h1, p{
+    padding-top: 1%;
+    margin-left: 5%;
+    margin-right:5%;
+
+   }
 
 
-   footer {
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+  
+}
+
+.boxes p{
+    margin-left: 1px;
+}
+
+.boxes h2{
+    margin: 1%;
+}
+
+button{
+    margin: 0 auto;
+}
+
+.strategy, .how, .places, .collab{
+    width: 40%;
+    border-bottom: 5px dotted black;
+    padding: 2%;
+    border: solid 10px red;
+}
+
+.boxes button{
+    margin: 1% auto;
+   display:flex;
+   justify-content: center;
+    
+}
+
+.last{
+    line-height:14px;
+    padding: 1%;
+    width: 10;
+    
+}  
+
+
+ .last h2{
+ padding-top: 1%;
+ margin-left: 5%;
+ margin-right:5%;
+}
+
+footer {
     width: 100%;
     background: black;
 }
@@ -130,3 +188,5 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
